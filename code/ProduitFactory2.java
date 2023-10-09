@@ -1,3 +1,4 @@
+// package PatternAbstractFactory_exercice.code;
 // package PatternAbstractFactory.code;
 
 public class ProduitFactory2 implements IProduitFactory {
@@ -7,6 +8,10 @@ public class ProduitFactory2 implements IProduitFactory {
     
     public ProduitB getProduitB() {
         return new ProduitB2();
+    }
+
+    public ProduitC getProduitC() {
+        return new ProduitC2();
     }
     
 }
