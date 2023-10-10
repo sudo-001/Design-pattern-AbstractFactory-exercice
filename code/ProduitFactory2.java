@@ -9,6 +9,5 @@ public class ProduitFactory2 implements IProduitFactory {
     public ProduitB getProduitB() {
         return new ProduitB2();
     }
-
     
 }
